@@ -1,5 +1,23 @@
-sgemm
-sgemm_solution
-ptxas_info.txt
-reports/
+# --- All labs -----------------------------------------------------------------
+# Submission archives (rebuilt from the tracked files)
 *.zip
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# --- lab1 (CUDA SGEMM) ----------------------------------------------------------
+# Build output
+lab1/sgemm
+lab1/sgemm_solution
+lab1/ptxas_info.txt
+# Nsight profiler reports (hundreds of MB; keep screenshots/ instead)
+lab1/reports/
