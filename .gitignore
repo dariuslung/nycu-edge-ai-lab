@@ -1,0 +1,5 @@
+sgemm
+sgemm_solution
+ptxas_info.txt
+reports/
+*.zip
